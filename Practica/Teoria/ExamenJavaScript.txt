@@ -1,0 +1,176 @@
+/******************* Examen de javaScript basico *************************/
+
+-- Que es una variable y para que sirve 
+
+R// Es un contenedor para almacenar datos,numeros,texto,objetos,funciones etc. 
+R// Sirve precisamente para almacenar un valor en memoria y manipularlos en el codigo 
+
+-- Cual es la diferencia entre declarar e inicializar una variable ?
+
+R// Declarar  una variable estas hablando de incializar una variable y reservar 
+un espacio en memoria para alamacenar un valor con un nombre  y incializar una variable implica asignarle un valor incial despues de declarla 
+
+-- ¿Cuál es la diferencia entre sumar números y concatenar strings?
+
+La diferencia principalmente es que al sumar numeros no se colocan las comillas dobles
+" " en cambio el concatenar string es necesarios las dobles " "
+
+-- Determina el nombre y tipo de dato para almacenar en variables la siguiente información:
+
+nombre -- string
+apellido -- string 
+nombre de usaurio -- string 
+edad -- number 
+correo -- string 
+mayor de edad -- boolean 
+dinero ahorrado -- number 
+deudas -- number 
+
+
+- Que es una funcion 
+
+    Es un bloque de codigo en donde podemos recibir cero o mas parametros,
+    realizar operaciones basadas en esos parámetros y luego devolver un resultado.
+
+
+    Usar una funcion en tu codigo es fundamental para escribir codigo modular, 
+    reutilizable y estructurado. 
+
+    las funcion cumplen varios propositos y ofresen numerosos beneficios
+
+¿Cuál es la diferencia entre parámetros y argumentos de una función?
+
+    parametros y argumentos estan relacionados en las funciones 
+    pero tienen significados diferentes
+
+
+    Parametros 
+
+    los parametro son variables que se definen en la declaracion de una funcion, 
+    estas actuan como marcadores de posicion para los valores de la funcion y
+    esperan cuando es llamada
+
+    Estos parámetros son nombres que especificas en la definición de la función y
+    representan las entradas que la función espera para hacer su trabajo.
+
+    Argumentos 
+
+    Los argumentos son los valores reales que se pasan a una funcion cuando 
+    se invoca. 
+
+    Estos valores son proporcionados en la llamada a la función y se corresponden 
+    con los parámetros definidos en la función
+    
+    Los argumentos se pasan en el mismo orden que los parámetros y se utilizan para asignar 
+    valores a las variables que actúan como parámetro
+
+    resumen
+
+    los parámetros son nombres de variables definidos en la declaración de la función, mientras que los 
+    argumentos son los valores reales que se pasan a la función cuando se la invoca
+
+
+    /*
+    
+        Condicional 
+
+    */
+
+    Que es una condicional ?
+
+    Un condicional en programación se refiere a una estructura de control que permite ejecutar diferentes 
+    bloques de código dependiendo de si una condición especificada es verdadera o fals
+
+    Tipos de condicionales 
+
+    if , else if , switch 
+
+    /*
+    
+        Ciclos 
+    
+    */
+
+        Que es un ciclo 
+
+        Es una estructura de control que permite ejecutar un bloque de codigo de 
+        forma repetitiva mientras se cumple una condicion especifica. 
+
+        El ciclo es una herramienta esencial para automatizar tareas que deben 
+        realizarse varias veces
+
+        evitando la duplicación de código y mejorando la eficiencia y legibilidad 
+        del programa
+
+        Que tipos de ciclos existen en javaScript 
+
+        for , while , do while, foreach 
+
+
+    /*
+    
+        Arrays 
+    
+    */
+
+    Que es un Arrays 
+
+    Es una estructura de datos que se utiliza para alamacenar una coleccion de elementos
+    cada array esta identificado como un indice numerico que representa su posicion en el 
+    array 
+
+    Un array puede contener elementos de diferentes tipos de datos, como números, cadenas de texto, booleanos,
+    objetos, otras matrices, funciones, etc.
+
+    Es la manera en la cual por medio de una variable podemos almacenar varios objetos 
+    con dicha informacion
+
+    ¿Cuándo es mejor usar objetos o arrays?
+
+    La elección entre usar objetos o arrays en JavaScript depende de la estructura de datos que mejor
+    se adapte a tu situación y del tipo de operaciones que planeas realizar con esa estructura de datos
+
+
+    Usa un array cuando:
+
+Necesitas almacenar datos de manera secuencial:
+Los arrays son adecuados para almacenar conjuntos de datos secuenciales en los que el orden 
+es importante y cada elemento se puede acceder por su posición (índice) en el array
+
+Necesitas realizar operaciones en masa en los elementos:
+Si necesitas realizar operaciones en masa, como recorrer todos los elementos, aplicar una operación a cada elemento, filtrar elementos,
+etc., un array es una opción eficiente.
+
+Los datos tienen una estructura homogénea:
+Los arrays son ideales para almacenar datos del mismo tipo, como una lista de números, cadenas, booleanos, etc. Esto es especialmente útil cuando necesitas manipular o transformar todos los elementos de manera consistente.
+
+Necesitas acceder a los elementos por índice:
+Si necesitas acceder a los elementos por su posición en el conjunto, los arrays te permiten hacerlo de manera eficiente utilizando índices.
+
+
+ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+
+/*************         ******************/
+
+querySelector = 
+
+-- Se utiliza la sintaxis similar a la de css 
+-- 
+
+
+innerText = Convierte todo a texto 
+
+innerHTML = Convierte a codigo html
+
+getAttribute() = Nos ayuda a leer sobre los atributos que tenga nuestro elemento 
+
+document.createElement('') = Nos ayuda a crear el elemento html que nosotros creamos 
+
+
+
+
+
+
